@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FFC300"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:text="Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data."
+        android:layout_width="wrap_content"
+        android:textColor="#000000"
+        android:textSize="13dp"
+        android:layout_toRightOf="@id/img"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:layout_height="wrap_content"></TextView>
+
+    <ImageView
+        android:id="@+id/img"
+        android:src="@drawable/image_laptop"
+        android:layout_width="190dp"
+        android:layout_marginLeft="10dp"
+        android:layout_height="200dp">
+    </ImageView>
+</RelativeLayout>
